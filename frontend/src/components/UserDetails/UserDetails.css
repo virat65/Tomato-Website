@@ -1,0 +1,37 @@
+.user-details-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 32px 24px;
+  max-width: 420px;
+  margin: 32px auto;
+}
+.user-photo-section {
+  flex: 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #eee;
+}
+.user-info-section {
+  margin-left: 32px;
+}
+.user-name {
+  margin: 0 0 12px 0;
+  font-size: 1.7rem;
+  color: #222;
+}
+.user-email,
+.user-phone {
+  margin: 6px 0;
+  color: #555;
+  font-size: 1.1rem;
+}
